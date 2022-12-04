@@ -1,0 +1,116 @@
+{
+  "id": "cc7eb675-ef90-4ee4-867f-ffcc710ace36",
+  "version": "2.0",
+  "name": "Tarea 4 p2",
+  "url": "https://reilyn-dl.netlify.app",
+  "tests": [{
+    "id": "f8cb4f9b-f323-4972-b58c-b0ecdc3bbea1",
+    "name": "Test 1",
+    "commands": [{
+      "id": "ecfcf035-0355-4330-9e09-02554beca984",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32dfcf8e-cd66-4334-bd91-a901a7dda556",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "833x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81db9ff3-3c33-44c2-b3dd-ac26f410a6a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5e38643-d3cc-4656-828e-e8c2e5466e6c",
+      "comment": "",
+      "command": "type",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "reilyndl@gmail.com"
+    }, {
+      "id": "66938959-b4cb-4046-8fa6-80670946b8e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6fb767e-4171-4da7-bfec-cc7f0962ef9b",
+      "comment": "",
+      "command": "type",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1234456789"
+    }, {
+      "id": "93c643c5-dac2-41e6-a637-40bbd1a060bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Log In']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4cebdaf-a320-40dd-8773-06daaed33843",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lost your Password?",
+      "targets": [
+        ["linkText=Lost your Password?", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Lost your Password?')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lost your Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad4ef627-78a9-4588-a4a7-c7e1036b5a7c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Don't have An account?",
+      "targets": [
+        ["linkText=Don't have An account?", "linkText"],
+        ["css=a:nth-child(8)", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6c59154e-c880-460e-9a6e-905eef77f825",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f8cb4f9b-f323-4972-b58c-b0ecdc3bbea1"]
+  }],
+  "urls": ["https://reilyn-dl.netlify.app/"],
+  "plugins": []
+}

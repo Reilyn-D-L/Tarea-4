@@ -1,0 +1,325 @@
+{
+  "id": "2a7e1ce2-5953-43d2-b457-a99db5ba4171",
+  "version": "2.0",
+  "name": "Prueba T4",
+  "url": "https://reilyn-dl.netlify.app",
+  "tests": [{
+    "id": "ea3b5899-14f7-4fcf-a9b1-4b0021a9fec6",
+    "name": "Test 1",
+    "commands": [{
+      "id": "90db44c0-0151-491e-bc17-0979454ecea3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "366179a9-42ee-43f2-b526-7b053c20e606",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "833x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61aeb881-7861-43ba-8bd3-ef73fb5416ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d06f14b3-54ed-4b3a-a27b-f012595c7be7",
+      "comment": "",
+      "command": "type",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "reilyndelarosal@gmail.com"
+    }, {
+      "id": "c1d9d543-a452-4833-9430-4b1f2fe24e93",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "51568666-14f8-4eb9-9170-1b22ccc55975",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "deaa7c55-11cd-4a8c-8022-cbde5125a0c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "073eeead-d201-4054-bfdc-63736c39a610",
+      "comment": "",
+      "command": "type",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "reilyndelarosal@gmail.com"
+    }, {
+      "id": "02503ce2-2747-4bcc-b515-639337c89f28",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2e359ac-80eb-41ba-bb41-f71da69032b3",
+      "comment": "",
+      "command": "type",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Reilyndl"
+    }, {
+      "id": "f4832bb4-5921-4002-aea9-19a03d96b299",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Log In']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4622f72b-f0d0-4b93-84c2-06bd7ab88f49",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lost your Password?",
+      "targets": [
+        ["linkText=Lost your Password?", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Lost your Password?')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lost your Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4caddf3d-f709-4343-b682-99f04065f92f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Don't have An account?",
+      "targets": [
+        ["linkText=Don't have An account?", "linkText"],
+        ["css=a:nth-child(8)", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03e9caa2-03cd-4526-a6b2-cbf9ce1bc4a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "821e3276-fda1-4416-a8f0-cee077164f28",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3f24373-19c9-4713-b6e5-cfc03f2abdb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87004dcd-110e-4f49-bb4c-a3bce2e17308",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "345e86d8-3192-4c7c-bf9e-0afab7cbe627",
+      "comment": "",
+      "command": "type",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "reilyndl@gmail.com"
+    }, {
+      "id": "494e6e6d-0e27-48fb-ae7f-6e010b077a2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef310702-7b05-4ebc-94af-da540c7b784c",
+      "comment": "",
+      "command": "type",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1234556"
+    }, {
+      "id": "ac09bb46-8e28-45f5-abd1-065b770c3d23",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Log In']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "404c9b9a-9d4c-485d-9504-56411ea58bf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00bde437-4032-4703-87f3-71e1d67b829d",
+      "comment": "",
+      "command": "type",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "reilyndl"
+    }, {
+      "id": "fe56bad7-9339-4342-9d14-6fba7a45a22f",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1faa4ffb-66b6-41d7-9ed7-7dd2b7f09629",
+      "comment": "",
+      "command": "type",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "df0435ac-4ba2-4ff8-b32b-0aafaf569b51",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Log In']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46e5adc1-749c-4014-9b43-95ff7428a937",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lost your Password?",
+      "targets": [
+        ["linkText=Lost your Password?", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Lost your Password?')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lost your Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05514ef7-360c-4254-9912-2e1f4ea78daf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Don't have An account?",
+      "targets": [
+        ["linkText=Don't have An account?", "linkText"],
+        ["css=a:nth-child(8)", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0fb853ca-ca60-4e4e-9836-8371e5734443",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ea3b5899-14f7-4fcf-a9b1-4b0021a9fec6"]
+  }],
+  "urls": ["https://reilyn-dl.netlify.app/"],
+  "plugins": []
+}
